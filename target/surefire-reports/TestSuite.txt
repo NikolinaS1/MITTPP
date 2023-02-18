@@ -1,56 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 180.847 s <<< FAILURE! - in TestSuite
-checkCartTest(AmazonTest)  Time elapsed: 27.604 s  <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 219.269 s <<< FAILURE! - in TestSuite
+checkCartTest(AmazonTest)  Time elapsed: 28.607 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attachDisplayAddBaseAlert"]/div/h4"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attach-sidesheet-view-cart-button"]/span/input"}
   (Session info: MicrosoftEdge=110.0.1587.49)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-VR8NC81', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50071}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d5b6aa3e3ad928ca704173b5234ae4c
-*** Element info: {Using=xpath, value=//*[@id="attachDisplayAddBaseAlert"]/div/h4}
-	at AmazonTest.checkCartTest(AmazonTest.java:75)
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54414}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc20e915ac66d1fa64b5602a4980987
+*** Element info: {Using=xpath, value=//*[@id="attach-sidesheet-view-cart-button"]/span/input}
+	at AmazonTest.checkCartTest(AmazonTest.java:72)
 
-checkFiltersTest(AmazonTest)  Time elapsed: 4.038 s  <<< FAILURE!
+deleteProductTest(AmazonTest)  Time elapsed: 27.942 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nav-hamburger-menu"]/i"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attach-sidesheet-view-cart-button"]/span/input"}
   (Session info: chrome=110.0.5481.97)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-VR8NC81', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a364fa50c75f1143902da67f262de08
-*** Element info: {Using=xpath, value=//*[@id="nav-hamburger-menu"]/i}
-	at AmazonTest.checkFiltersTest(AmazonTest.java:97)
-
-deleteProductTest(AmazonTest)  Time elapsed: 19.498 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attachDisplayAddBaseAlert"]/div/h4"}
-  (Session info: chrome=110.0.5481.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-VR8NC81', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bff539dd26db2279ee59c39056227849
-*** Element info: {Using=xpath, value=//*[@id="attachDisplayAddBaseAlert"]/div/h4}
-	at AmazonTest.deleteProductTest(AmazonTest.java:87)
-
-deleteProductTest(AmazonTest)  Time elapsed: 18.531 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="attachDisplayAddBaseAlert"]/div/h4"}
-  (Session info: MicrosoftEdge=110.0.1587.49)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-VR8NC81', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50842}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a8bbda51b79c3d6e98a8f29dfd878c6
-*** Element info: {Using=xpath, value=//*[@id="attachDisplayAddBaseAlert"]/div/h4}
-	at AmazonTest.deleteProductTest(AmazonTest.java:87)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 291ac4c2627dd97d98b34d476d6c90e9
+*** Element info: {Using=xpath, value=//*[@id="attach-sidesheet-view-cart-button"]/span/input}
+	at AmazonTest.deleteProductTest(AmazonTest.java:84)
 

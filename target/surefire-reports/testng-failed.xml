@@ -7,7 +7,6 @@
       <class name="AmazonTest">
         <methods>
           <include name="teardownTest"/>
-          <include name="checkFiltersTest"/>
           <include name="Browserlaunch"/>
           <include name="deleteProductTest"/>
         </methods>
@@ -21,7 +20,6 @@
         <methods>
           <include name="teardownTest"/>
           <include name="Browserlaunch"/>
-          <include name="deleteProductTest"/>
           <include name="checkCartTest"/>
         </methods>
       </class> <!-- AmazonTest -->

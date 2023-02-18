@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AmazonTest {
     public WebDriver driver;
-    public String testURL = "http://www.amazon.com";
+    //public String testURL = "http://www.amazon.com";
     AmazonHomePage objHomePage;
     AmazonSearchPage objSearchPage;
     AmazonProductPage objProductPage;

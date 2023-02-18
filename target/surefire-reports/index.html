@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 4 failed,   6 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,16 +103,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="checkCartTest">checkCartTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="checkFiltersTest">checkFiltersTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="deleteProductTest">deleteProductTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -151,6 +141,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="checkFiltersTest">checkFiltersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="deleteProductTest">deleteProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="AmazonTest" class="method navigator-link" hash-for-method="productSearchTest">productSearchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -182,15 +182,15 @@
                   <a name="checkCartTest">
                   </a> <!-- checkCartTest -->
                   <span class="method-name">checkCartTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attach-sidesheet-view-cart-button&quot;]/span/input&quot;}
   (Session info: MicrosoftEdge=110.0.1587.49)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
 System info: host: &apos;DESKTOP-VR8NC81&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50071}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d5b6aa3e3ad928ca704173b5234ae4c
-*** Element info: {Using=xpath, value=//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4}
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54414}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc20e915ac66d1fa64b5602a4980987
+*** Element info: {Using=xpath, value=//*[@id=&quot;attach-sidesheet-view-cart-button&quot;]/span/input}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -200,41 +200,8 @@ Session ID: 5d5b6aa3e3ad928ca704173b5234ae4c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at AmazonProductPage.addProductToCart(AmazonProductPage.java:25)
-	at AmazonTest.checkCartTest(AmazonTest.java:75)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1589)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkFiltersTest">
-                  </a> <!-- checkFiltersTest -->
-                  <span class="method-name">checkFiltersTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;nav-hamburger-menu&quot;]/i&quot;}
-  (Session info: chrome=110.0.5481.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;DESKTOP-VR8NC81&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a364fa50c75f1143902da67f262de08
-*** Element info: {Using=xpath, value=//*[@id=&quot;nav-hamburger-menu&quot;]/i}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at AmazonHomePage.checkAll(AmazonHomePage.java:24)
-	at AmazonTest.checkFiltersTest(AmazonTest.java:97)
+	at AmazonProductPage.addProductToCart(AmazonProductPage.java:27)
+	at AmazonTest.checkCartTest(AmazonTest.java:72)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
@@ -248,15 +215,15 @@ Session ID: 8a364fa50c75f1143902da67f262de08
                   <a name="deleteProductTest">
                   </a> <!-- deleteProductTest -->
                   <span class="method-name">deleteProductTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attach-sidesheet-view-cart-button&quot;]/span/input&quot;}
   (Session info: chrome=110.0.5481.97)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
 System info: host: &apos;DESKTOP-VR8NC81&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bff539dd26db2279ee59c39056227849
-*** Element info: {Using=xpath, value=//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Nikolina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 291ac4c2627dd97d98b34d476d6c90e9
+*** Element info: {Using=xpath, value=//*[@id=&quot;attach-sidesheet-view-cart-button&quot;]/span/input}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -266,41 +233,8 @@ Session ID: bff539dd26db2279ee59c39056227849
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at AmazonProductPage.addProductToCart(AmazonProductPage.java:25)
-	at AmazonTest.deleteProductTest(AmazonTest.java:87)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1589)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteProductTest">
-                  </a> <!-- deleteProductTest -->
-                  <span class="method-name">deleteProductTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4&quot;}
-  (Session info: MicrosoftEdge=110.0.1587.49)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;DESKTOP-VR8NC81&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50842}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Nikolina\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.0.11:4444/sess..., se:cdpVersion: 110.0.1587.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a8bbda51b79c3d6e98a8f29dfd878c6
-*** Element info: {Using=xpath, value=//*[@id=&quot;attachDisplayAddBaseAlert&quot;]/div/h4}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at AmazonProductPage.addProductToCart(AmazonProductPage.java:25)
-	at AmazonTest.deleteProductTest(AmazonTest.java:87)
+	at AmazonProductPage.addProductToCart(AmazonProductPage.java:27)
+	at AmazonTest.deleteProductTest(AmazonTest.java:84)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
@@ -343,6 +277,20 @@ Session ID: 4a8bbda51b79c3d6e98a8f29dfd878c6
                   <a name="checkFiltersTest">
                   </a> <!-- checkFiltersTest -->
                   <span class="method-name">checkFiltersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFiltersTest">
+                  </a> <!-- checkFiltersTest -->
+                  <span class="method-name">checkFiltersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteProductTest">
+                  </a> <!-- deleteProductTest -->
+                  <span class="method-name">deleteProductTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -425,50 +373,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkFiltersTest')
+data.setCell(0, 1, 'checkCartTest')
 data.setCell(0, 2, 'AmazonTest')
-data.setCell(0, 3, 42504);
+data.setCell(0, 3, 46118);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkCartTest')
+data.setCell(1, 1, 'deleteProductTest')
 data.setCell(1, 2, 'AmazonTest')
-data.setCell(1, 3, 41096);
+data.setCell(1, 3, 42013);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkCartTest')
+data.setCell(2, 1, 'checkFiltersTest')
 data.setCell(2, 2, 'AmazonTest')
-data.setCell(2, 3, 27551);
+data.setCell(2, 3, 41336);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'productSearchTest')
+data.setCell(3, 1, 'checkFiltersTest')
 data.setCell(3, 2, 'AmazonTest')
-data.setCell(3, 3, 26292);
+data.setCell(3, 3, 40073);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'productSearchTest')
 data.setCell(4, 2, 'AmazonTest')
-data.setCell(4, 3, 21111);
+data.setCell(4, 3, 29723);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'changeSettingsTest')
+data.setCell(5, 1, 'productSearchTest')
 data.setCell(5, 2, 'AmazonTest')
-data.setCell(5, 3, 20924);
+data.setCell(5, 3, 29650);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'deleteProductTest')
+data.setCell(6, 1, 'checkCartTest')
 data.setCell(6, 2, 'AmazonTest')
-data.setCell(6, 3, 19491);
+data.setCell(6, 3, 28580);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'deleteProductTest')
 data.setCell(7, 2, 'AmazonTest')
-data.setCell(7, 3, 18524);
+data.setCell(7, 3, 27941);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'changeSettingsTest')
 data.setCell(8, 2, 'AmazonTest')
-data.setCell(8, 3, 15351);
+data.setCell(8, 3, 16920);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkFiltersTest')
+data.setCell(9, 1, 'changeSettingsTest')
 data.setCell(9, 2, 'AmazonTest')
-data.setCell(9, 3, 4036);
+data.setCell(9, 3, 13956);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -505,123 +453,119 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">changeSettingsTest</span>
-                <span class="method-start">9232 ms</span>
+                <span class="method-start">8573 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">changeSettingsTest</span>
-                <span class="method-start">18667 ms</span>
+                <span class="method-start">15435 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">30158 ms</span>
+                <span class="method-start">25494 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(chrome)</span>
-                <span class="method-start">31643 ms</span>
+                <span class="method-start">26827 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">34018 ms</span>
+                <span class="method-start">29392 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(MicrosoftEdge)</span>
-                <span class="method-start">35531 ms</span>
+                <span class="method-start">31096 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkCartTest</span>
-                <span class="method-start">36044 ms</span>
+                <span class="method-start">33207 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkCartTest</span>
-                <span class="method-start">43195 ms</span>
+                <span class="method-start">43345 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">70767 ms</span>
+                <span class="method-start">71946 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(MicrosoftEdge)</span>
-                <span class="method-start">72557 ms</span>
+                <span class="method-start">74927 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">77141 ms</span>
+                <span class="method-start">79326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">checkFiltersTest</span>
-                <span class="method-start">79948 ms</span>
+                <span class="method-start">82817 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(chrome)</span>
-                <span class="method-start">80467 ms</span>
+                <span class="method-start">83514 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkFiltersTest</span>
-                <span class="method-start">84072 ms</span>
+                <span class="method-start">90116 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">88109 ms</span>
+                <span class="method-start">124153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Browserlaunch(MicrosoftEdge)</span>
+                <span class="method-start">125961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">teardownTest</span>
+                <span class="method-start">130189 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(chrome)</span>
-                <span class="method-start">88728 ms</span>
+                <span class="method-start">131835 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteProductTest</span>
+                <span class="method-start">134770 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deleteProductTest</span>
-                <span class="method-start">93106 ms</span>
+                <span class="method-start">143181 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">112600 ms</span>
+                <span class="method-start">171123 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(chrome)</span>
-                <span class="method-start">113325 ms</span>
+                <span class="method-start">172362 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">productSearchTest</span>
-                <span class="method-start">118517 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">122453 ms</span>
+                <span class="method-start">176783 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Browserlaunch(MicrosoftEdge)</span>
-                <span class="method-start">124356 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">deleteProductTest</span>
-                <span class="method-start">133030 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownTest</span>
-                <span class="method-start">144809 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownTest</span>
-                <span class="method-start">151555 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Browserlaunch(MicrosoftEdge)</span>
-                <span class="method-start">152223 ms</span>
+                <span class="method-start">178280 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchTest</span>
-                <span class="method-start">158303 ms</span>
+                <span class="method-start">178503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productSearchTest</span>
+                <span class="method-start">188171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">179414 ms</span>
+                <span class="method-start">208153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardownTest</span>
+                <span class="method-start">217894 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

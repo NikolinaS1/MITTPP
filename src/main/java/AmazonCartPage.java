@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 public class AmazonCartPage {
     WebDriver driver;
 
-    //By deleteTest = By.xpath("//*[@id=\"sc-active-Cd7922ec2-b3c1-4885-9aa8-e8b7db0e1d2c\"]/div/div[1]/span/text()");
-
     public AmazonCartPage (WebDriver driver) {
         this.driver = driver;
     }
